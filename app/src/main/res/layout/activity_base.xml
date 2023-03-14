@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/my_gradient_background"
+    android:layout_height="match_parent"
+    tools:context=".BaseActivity">
+    <Button
+        android:id="@+id/NormalRecyclerView"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/back_button"
+        android:text="LuckynamberActivity"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/RecyclerViewWithCardView"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/back_button"
+        android:text="RadionGroup CheckBox Spinner"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RecyclerViewWithMultableViewTypes" />
+
+    <Button
+        android:id="@+id/RecyclerViewWithSingleItem"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/back_button"
+        android:text="SoundPlayer"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NormalRecyclerView" />
+
+    <Button
+        android:id="@+id/RecyclerViewWithMultableViewTypes"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/back_button"
+        android:text="VideoPlayer"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/RecyclerViewWithSingleItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toEndOf="@+id/RecyclerViewWithSingleItem" />
+
+    <Button
+        android:id="@+id/RecyclerViewWithMultableItemSelected"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/back_button"
+        android:text="FrenchTeacher"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RecyclerViewWithCardView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
